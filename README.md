@@ -12,8 +12,10 @@ Durante a resolução de um problema no quadro, surgiu a seguinte questão: *"Qu
 
 Busquei projetar um algoritmo generalista que permitisse o usuário de definir uma quantia qualquer de jogadas ($n$) e buscasse por diferentes padrões e regras dentro do espaço amostral gerado.
 A matemática do código baseia-se em **força bruta e combinatória**:
-  **Sabendo que uma moeda tem 2 lados (Cara ou Coroa), o total de possibilidades para $n$ jogadas é sempre $2^n$.**
-  **O programa itera de $0$ até $2^n - 1$. Durante a iteração, ele utiliza decomposição binária para converter cada número inteiro do espaço de possibilidades em uma sequência de 0's e 1's, onde `0` representa **Cara ('c')** e `1` representa **Coroa ('k')**. Após montar a sequência do momento, ele verifica se ela atende à regra definida pelo usuário.**
+  
+-  **Sabendo que uma moeda tem 2 lados (Cara ou Coroa), o total de possibilidades para $n$ jogadas é sempre $2^n$.**
+  
+-   **O programa itera de $0$ até $2^n - 1$. Durante a iteração, ele utiliza decomposição binária para converter cada número inteiro do espaço de possibilidades em uma sequência de 0's e 1's, onde `0` representa **Cara ('c')** e `1` representa **Coroa ('k')**. Após montar a sequência do momento, ele verifica se ela atende à regra definida pelo usuário.**
 
 ### Modos de Busca
 
@@ -28,7 +30,9 @@ O programa possui dois modos de operação:
 Digite a quantidade de jogadas: 3
 
 Escolha 1 - para definir posicao exata (ex: cxxk)
+
 Escolha 2 - para definir 'regra'/'subsequencia' (se n=4 e 'ckk'- engloba ckkk, ckkc, cckk, kckk)
+
 Opcao: 1
 
 Digite o padrao desejado: cxk
@@ -37,11 +41,12 @@ Digite o padrao desejado: cxk
 - ckk
 
 --- Resultados ---
+
 Casos favoraveis: 2
+
 Total de possibilidades (2^3): 8
+
 Probabilidade do evento: 25.00%
 
-***Autor***
-#### Artur Rodrigues Nunes de Almeida - Aluno de Ciência da Computação - Centro de Informática (CI) / UFPB
-
-####Feito com dedicação para a disciplina de Teoria das Probabilidades.
+#### ---
+*Artur Rodrigues Nunes de Almeida - Aluno de Ciência da Computação - Centro de Informática (CI) / UFPB*
