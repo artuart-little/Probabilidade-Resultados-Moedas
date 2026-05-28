@@ -49,4 +49,4 @@ Total de possibilidades (2^3): 8
 Probabilidade do evento: 25.00%
 
 #### ---
-*Artur Rodrigues Nunes de Almeida - Aluno de Ciência da Computação - Centro de Informática (CI) / UFPB*
+*Artur Rodrigues Nunes de Almeida - Aluno de Ciência de Dados e Inteligência Artificial - Centro de Informática (CI) / UFPB*
